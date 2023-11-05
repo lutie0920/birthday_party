@@ -1,0 +1,22 @@
+.info{
+
+    &__items{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+
+        .local{
+            display: inline-block;
+        }
+
+        img{
+            width: 24px;
+            margin-left: 32px;
+        }
+
+        span{
+            color: #000;
+            font-size: 24px;
+        }
+    }
+}
