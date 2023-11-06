@@ -8,3 +8,10 @@ button{
     margin-top: 25px;
     margin-bottom: 50px;
 }
+
+@media(max-width: 768px){
+    button{
+        font-size: 18px;
+        padding: 8px;
+    }
+}

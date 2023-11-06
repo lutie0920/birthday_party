@@ -26,4 +26,15 @@
     #contador{
         color: rgb(198, 22, 154)
     }
+
+    @media(max-width: 768px){
+        h1{
+            font-size: 32px;
+            margin-bottom: 32px;
+        }
+        
+        p{
+            font-size: 24px;
+        }
+    }
 }
